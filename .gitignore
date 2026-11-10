@@ -1,0 +1,13 @@
+# Local tooling and visual QA artifacts
+.chrome-*/
+.capture.js
+.make-assets.py
+.preview-*.png
+.mobile-*.png
+.desktop-*.png
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
