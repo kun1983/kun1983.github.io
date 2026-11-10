@@ -114,12 +114,15 @@
     const frame = image.closest(".qr-frame");
     if (!frame) return;
 
+    const note = frame.parentElement?.querySelector("[data-qr-note]");
     const sync = () => {
-      frame.classList.toggle("has-qr", image.complete && image.naturalWidth > 0);
+      const loaded = image.complete && image.naturalWidth > 0;
+      frame.classList.toggle("has-qr", loaded);
+      if (note) note.textContent = loaded ? "扫码关注 / SCAN" : "二维码待补充";
     };
 
     image.addEventListener("load", sync);
-    image.addEventListener("error", () => frame.classList.remove("has-qr"));
+    image.addEventListener("error", sync);
     sync();
 
     if (typeof image.decode === "function") {

@@ -2,6 +2,10 @@
 
 Kun1983 的个人主页。纯静态 HTML / CSS / JavaScript，无构建步骤，通过 GitHub Pages 发布。
 
+- 仓库：<https://github.com/kun1983/kun1983.github.io>
+- 正式域名：<https://kun1983.com>
+- Pages 工作流：`.github/workflows/pages.yml`
+
 ## 页面内容
 
 - 首屏个人介绍：SONY 粉、PC 技术 Geek、PC DIY、音乐
@@ -28,7 +32,7 @@ assets/img/wechat-qr.png
 assets/img/xiaohongshu-qr.png
 ```
 
-建议尺寸至少 640 × 640，四周保留少量白边。图片存在并加载成功后，页面会自动用二维码替换占位图案；无需改代码。
+建议尺寸至少 640 × 640，四周保留少量白边。图片存在并加载成功后，页面会自动用二维码替换占位图案，并把下方文案改为“扫码关注 / SCAN”；无需改代码。图片未放入时显示“二维码待补充”。
 
 ## 修改文案
 

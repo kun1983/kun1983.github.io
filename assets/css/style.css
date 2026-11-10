@@ -1003,9 +1003,8 @@ img {
 
 .qr-note {
   color: var(--muted);
-  font-family: var(--font-mono);
-  font-size: 6.5px;
-  letter-spacing: 0.15em;
+  font-size: 8px;
+  letter-spacing: 0.06em;
   line-height: 1.4;
 }
 
@@ -1493,8 +1492,8 @@ img {
   }
 
   .qr-note {
-    font-size: 6px;
-    letter-spacing: 0.1em;
+    font-size: 7.5px;
+    letter-spacing: 0.04em;
   }
 
   .channels-footnote {
