@@ -7,6 +7,9 @@
 .desktop-*.png
 *.log
 
+# Source screenshots for QR extraction
+RES/
+
 # OS files
 .DS_Store
 Thumbs.db

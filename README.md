@@ -90,6 +90,6 @@ DNS 生效后，在仓库 **Settings → Pages** 中设置 Custom domain 为 `ku
         ├── apple-touch-icon.png
         ├── icon-512.png
         ├── og-cover.png
-        ├── wechat-qr.png        # 待放入
-        └── xiaohongshu-qr.png   # 待放入
+        ├── wechat-qr.png        # 已放入
+        └── xiaohongshu-qr.png   # 已放入
 ```
