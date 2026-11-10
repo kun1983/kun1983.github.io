@@ -74,6 +74,8 @@ DNS 生效后，在仓库 **Settings → Pages** 中设置 Custom domain 为 `ku
 ├── 404.html
 ├── CNAME
 ├── site.webmanifest
+├── robots.txt
+├── sitemap.xml
 ├── .nojekyll
 ├── .github/workflows/pages.yml
 └── assets

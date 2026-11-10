@@ -14,6 +14,7 @@
   --coffee: #6b4a37;
   --coffee-deep: #4e3325;
   --gold: #a98045;
+  --gold-ink: #8a642f;
   --gold-soft: #e6dcc7;
 
   --dark: #141311;
@@ -45,6 +46,7 @@
   --coffee: #c59b7b;
   --coffee-deep: #dab697;
   --gold: #d1ae6b;
+  --gold-ink: #d1ae6b;
   --gold-soft: #3a3022;
 
   --dark: #0c0b0a;
@@ -273,7 +275,7 @@ img {
 }
 
 .site-nav a span {
-  color: var(--gold);
+  color: var(--gold-ink);
   font-family: var(--font-mono);
   font-size: 7px;
   letter-spacing: 0.08em;
@@ -378,7 +380,7 @@ img {
   flex: 1;
   grid-template-columns: minmax(0, 1.55fr) minmax(330px, 0.68fr);
   gap: clamp(36px, 6vw, 96px);
-  align-items: end;
+  align-items: center;
 }
 
 .hero-main {
@@ -490,8 +492,8 @@ img {
 
 .about-card {
   position: relative;
-  align-self: end;
-  margin-bottom: clamp(2px, 1.6vw, 22px);
+  align-self: center;
+  margin-bottom: 0;
   padding: clamp(24px, 2.6vw, 34px);
   border: 1px solid var(--line);
   background: var(--surface);
@@ -689,7 +691,7 @@ img {
 .section-no {
   align-self: start;
   padding-top: 6px;
-  color: var(--gold);
+  color: var(--gold-ink);
   font-family: var(--font-mono);
   font-size: 10px;
   letter-spacing: 0.12em;
@@ -755,7 +757,7 @@ img {
 }
 
 .channel--red {
-  --accent: var(--gold);
+  --accent: var(--gold-ink);
 }
 
 .channel::before {
@@ -1018,7 +1020,7 @@ img {
 }
 
 .footnote-mark {
-  color: var(--gold);
+  color: var(--gold-ink);
   font-family: var(--font-mono);
   font-size: 9px;
 }

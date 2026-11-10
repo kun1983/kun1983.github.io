@@ -81,10 +81,23 @@
       button.classList.toggle("is-copied", success);
       if (label) label.textContent = success ? "COPIED" : "FAILED";
 
+      if (!success) {
+        const code = button.closest(".channel-id")?.querySelector("code");
+        if (code) {
+          const range = document.createRange();
+          range.selectNodeContents(code);
+          const selection = window.getSelection();
+          if (selection) {
+            selection.removeAllRanges();
+            selection.addRange(range);
+          }
+        }
+      }
+
       if (liveRegion) {
         liveRegion.textContent = success
           ? `已复制账号 ID：${value}`
-          : "复制失败，请手动选择账号 ID。";
+          : "复制失败，账号 ID 已选中，请手动复制。";
       }
 
       window.clearTimeout(button._copyReset);
