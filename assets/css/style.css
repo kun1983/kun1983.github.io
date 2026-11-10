@@ -1545,7 +1545,8 @@ img {
   }
 
   .qr-wrap {
-    align-items: flex-start;
+    align-self: stretch;
+    align-items: center;
     margin-top: 2px;
   }
 
@@ -1554,7 +1555,7 @@ img {
   }
 
   .qr-note {
-    align-self: flex-start;
+    align-self: center;
   }
 
   .channel-id {
