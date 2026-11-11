@@ -1198,6 +1198,14 @@ img {
   text-align: right;
 }
 
+.footer-legal {
+  padding-bottom: 18px;
+  color: var(--on-dark-muted);
+  font-size: 8.5px;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+}
+
 /* ---------- Motion ---------- */
 
 .js .hero-line > span {
